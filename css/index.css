@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main {
+    width: 100%;
+    background: white;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+.name-site {
+    color: #2e5da1;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #2e5da1;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.h_circle {
+
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: #2e5da1;
+    border-top-left-radius: 600px;
+    border-top-right-radius: 600px;
+}
+
+.h_circle img {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.aboutme {
+    margin-left: 100px;
+}
+
+.hello {
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.name {
+    margin-top: 10px;
+    color: #ff0073;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.aboutme p {
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 26px;
+}
+
+.social {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.social i {
+    font-size: 36px;
+}
+
+.social p a {
+    text-decoration: none;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+}
+
+.social p a:hover {
+    color: #2e5da1;
+}
